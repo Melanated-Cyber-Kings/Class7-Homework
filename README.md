@@ -55,7 +55,9 @@ This repository is where we collaborate, submit, and organize weekly assignments
 git clone https://github.com/Melanated-Cyber-Kings/Class7-Homework.git
 
 git pull origin <your-branch-name>
+</details>
 
+<details> <summary>🟡 Step 3: Organize Folders</summary>
 📂 Create directories for each week:
 Week1, Week2, Week3, ...
 
