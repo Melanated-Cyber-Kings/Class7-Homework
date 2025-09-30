@@ -100,4 +100,5 @@ Someone with no prior context should be able to follow your steps.
 🎯 Make sure everything is neat, readable, and presentation-ready for THEO.
 </details>
 
+---
 ✨ Stay consistent, collaborate effectively, and keep your submissions polished!
