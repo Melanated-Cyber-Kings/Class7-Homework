@@ -48,6 +48,9 @@ This repository is where we collaborate, submit, and organize weekly assignments
 
 <details open>
 <summary>🟢 Step 1: Clone the Repo</summary>
+```bash
+  git clone https://github.com/Melanated-Cyber-Kings/Class7-Homework.git
+```
 
 </details>
 
