@@ -13,12 +13,12 @@ This repository is where we collaborate, submit, and organize weekly assignments
 ## 📑 Table of Contents
 - [👥 Team Overview](#-team-overview)
 - [📖 Homework Instructions](#-homework-instructions)  
-  - [🟢 Step 1: Clone the Repo](#-step-1-clone-the-repo)  
-  - [🔵 Step 2: Pull Your Branch](#-step-2-pull-your-branch)  
-  - [🟡 Step 3: Organize Folders](#-step-3-organize-folders)  
-  - [🟣 Step 4: Create Your Branch](#-step-4-create-your-branch)  
-  - [📝 Step 5: Document Your Work](#-step-5-document-your-work)  
-  - [📤 Step 6: Submit Homework](#-step-6-submit-homework)  
+  - [🟢 Step 1: Clone the Repo](#step-1-clone-the-repo)  
+  - [🔵 Step 2: Pull Your Branch](#step-2-pull-your-branch)  
+  - [🟡 Step 3: Organize Folders](#step-3-organize-folders)  
+  - [🟣 Step 4: Create Your Branch](#step-4-create-your-branch)  
+  - [📝 Step 5: Document Your Work](#step-5-document-your-work)  
+  - [📤 Step 6: Submit Homework](#step-6-submit-homework)  
 
 ---
 
