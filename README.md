@@ -40,7 +40,6 @@ This repository is where we collaborate, submit, and organize weekly assignments
 [![Trevore Jerome](https://img.shields.io/badge/Member-Trevore_Jerome-lightgrey?style=flat-square&logo=github)](https://github.com/Futurist2099)  
 [![Voloxar Karsze](https://img.shields.io/badge/Member-Voloxar_Karsze-lightgrey?style=flat-square&logo=github)](https://github.com/theswordpt-git)  
 [![Mark Thornhill](https://img.shields.io/badge/Member-Mark_Thornhill-lightgrey?style=flat-square&logo=github)](https://github.com/theswordpt-git)  
-
 </details>
 
 ---
@@ -50,15 +49,19 @@ This repository is where we collaborate, submit, and organize weekly assignments
 <details open>
 <summary>🟢 Step 1: Clone the Repo</summary>
 
-</details> <details> <summary>🔵 Step 2: Pull Your Branch</summary>
+</details>
+
+<details>
+<summary>🔵 Step 2: Pull Your Branch</summary>
+
 ```bash
 git clone https://github.com/Melanated-Cyber-Kings/Class7-Homework.git
-
 
 git pull origin <your-branch-name>
 </details>
 
-<details> <summary>🟡 Step 3: Organize Folders</summary>
+<details>
+<summary>🟡 Step 3: Organize Folders</summary>
 📂 Create directories for each week:
 Week1, Week2, Week3, ...
 
@@ -67,6 +70,7 @@ Week1, Week2, Week3, ...
 
 <details>
 <summary>🟣 Step 4: Create Your Branch</summary>
+
 git checkout -b Your-Name-Homework-Branch
 
 ✅ Always switch into your branch immediately after creating it.
