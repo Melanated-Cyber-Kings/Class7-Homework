@@ -47,7 +47,7 @@ This repository is where we collaborate, submit, and organize weekly assignments
 ## 📖 Homework Instructions
 
 <details open>
-<summary>🟢 Step 1: Clone the Repo</summary>
+## <summary>🟢 Step 1: Clone the Repo</summary>
 
 </details>
 
