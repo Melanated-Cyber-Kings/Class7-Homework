@@ -51,7 +51,7 @@ This repository is where we collaborate, submit, and organize weekly assignments
 
 </details>
 
-<details>
+### <details>
 <summary>🔵 Step 2: Pull Your Branch</summary>
 
 ```bash
