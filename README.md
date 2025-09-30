@@ -53,6 +53,7 @@ This repository is where we collaborate, submit, and organize weekly assignments
 </details> <details> <summary>🔵 Step 2: Pull Your Branch</summary>
 ```bash
 git clone https://github.com/Melanated-Cyber-Kings/Class7-Homework.git
+```bash
 
 git pull origin <your-branch-name>
 </details>
