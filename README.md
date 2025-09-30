@@ -53,7 +53,7 @@ git pull origin "name of your branch goes here"
 
 2. Navigate to the cloned repo location in your gitbash terminal and create folders Week 1, Week 2, and so on. These are the folders that will have your homework in
 
-3. Create your branches and swith into it immediately. (I have created the names as I want you to create your braanches)
+3. Create your branches and switch into it immediately. (I have created the names as I want you to create your braanches)
 
 ```bash
 git checkout -b Hakeem-Shaffi-Homework-Branch
