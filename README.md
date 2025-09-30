@@ -2,7 +2,7 @@
 
 Class 7 2025 Homework Submissions Repo for THEO WAF 
 
-<h1 align="center">AWS CLASS 6 HOMEWORK</h1>
+<h1 align="center">AWS CLASS 7 HOMEWORK</h1>
 
 
 **Group Leader:** 
