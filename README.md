@@ -47,12 +47,12 @@ This repository is where we collaborate, submit, and organize weekly assignments
 ## 📖 Homework Instructions
 
 <details open>
-<summary>🟢 Step 1: Clone the Repo</summary>
+<summary>### 🟢 Step 1: Clone the Repo</summary>
 
 </details>
 
 <details>
-<summary>🔵 Step 2: Pull Your Branch</summary>
+<summary>### 🔵 Step 2: Pull Your Branch</summary>
 
 ```bash
 git clone https://github.com/Melanated-Cyber-Kings/Class7-Homework.git
@@ -63,7 +63,7 @@ git pull origin <your-branch-name>
 </details>
 
 <details>
-<summary>🟡 Step 3: Organize Folders</summary>
+<summary>### 🟡 Step 3: Organize Folders</summary>
 📂 Create directories for each week:
 Week1, Week2, Week3, ...
 
@@ -71,7 +71,7 @@ Week1, Week2, Week3, ...
 </details>
 
 <details>
-<summary>🟣 Step 4: Create Your Branch</summary>
+<summary>### 🟣 Step 4: Create Your Branch</summary>
 
 ```bash
 git checkout -b Your-Name-Homework-Branch
@@ -81,7 +81,7 @@ git checkout -b Your-Name-Homework-Branch
 </details>
 
 <details>
-<summary>📝 Step 5: Document Your Work</summary>
+<summary>### 📝 Step 5: Document Your Work</summary>
 
 📝 Add a README.md in each folder.
 
@@ -90,7 +90,7 @@ Keep instructions clear and beginner-friendly.
 Someone with no prior context should be able to follow your steps.
 </details>
 
-<details> <summary>📤 Step 6: Submit Homework</summary>
+<details> <summary>### 📤 Step 6: Submit Homework</summary>
 
 📤 Transfer all your completed assignments into the appropriate weekly folder.
 🎯 Make sure everything is neat, readable, and presentation-ready for THEO.
