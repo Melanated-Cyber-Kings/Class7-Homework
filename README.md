@@ -35,11 +35,6 @@ Class 7 2025 Homework Submissions Repo for THEO WAF
 
 <br>
 
-<h2 align="center">📌 Instructions</h2>
-
-<br>
-
-
 
 
 
