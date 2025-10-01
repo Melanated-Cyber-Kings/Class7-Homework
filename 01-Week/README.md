@@ -1,47 +1,64 @@
-# 🚀 AWS EC2 Instance Setup & Teardown Guide (ClickOps with Launch Template + User Data)
+# 🚀 AWS EC2 Instance Setup & Teardown Guide (ClickOps + Launch Template)
 
 This guide shows how to configure, connect, and tear down an **Amazon EC2 instance** using the **AWS Management Console (ClickOps)**.  
-It includes creating a **Launch Template** with a **custom startup script (User Data)** so your instance configures itself automatically at launch.
+It covers both **manual instance creation** and **Launch Template creation** (with custom User Data script).
 
 ---
 
 ## 📑 Table of Contents
-
--   [🔑 Prerequisites](#-prerequisites)
--   [⚙️ Step 1: Create a Launch Template](#️-step-1-create-a-launch-template)
--   [🚀 Step 2: Launch an Instance from Template](#-step-2-launch-an-instance-from-template)
--   [🔌 Step 3: Connect to Your EC2 Instance](#-step-3-connect-to-your-ec2-instance)
--   [🛑 Step 4: Teardown Instructions](#-step-4-teardown-instructions)
--   [⚠️ Notes & Best Practices](#️-notes--best-practices)
+- [🔑 Prerequisites](#-prerequisites)
+- [⚙️ Part 1: Launch a Standalone EC2 Instance](#️-part-1-launch-a-standalone-ec2-instance)
+- [📜 Part 2: Create a Launch Template (with User Data Script)](#-part-2-create-a-launch-template-with-user-data-script)
+- [🚀 Part 3: Launch an Instance from Template](#-part-3-launch-an-instance-from-template)
+- [🔌 Step 4: Connect to Your EC2 Instance](#-step-4-connect-to-your-ec2-instance)
+- [🛑 Step 5: Teardown Instructions](#-step-5-teardown-instructions)
+- [⚠️ Notes & Best Practices](#️-notes--best-practices)
 
 ---
 
 ## 🔑 Prerequisites
-
--   An **AWS account** with IAM permissions to create EC2 instances and launch templates.
--   Access to the **AWS Management Console**: [https://console.aws.amazon.com/](https://console.aws.amazon.com/).
--   A **Key Pair** (or the ability to create one during setup) to SSH into the instance.
--   A **startup script** (bash or PowerShell) that you want executed on boot.
+- An **AWS account** with IAM permissions to create EC2 instances and templates.
+- Access to the **AWS Management Console**: [https://console.aws.amazon.com/](https://console.aws.amazon.com/).
+- A **Key Pair** (or the ability to create one during setup) to SSH into instances.
+- A **startup script** if you plan to use a Launch Template (User Data).
 
 ---
 
-## ⚙️ Step 1: Create a Launch Template
+## ⚙️ Part 1: Launch a Standalone EC2 Instance
 
-1. In the **AWS Console**, go to **EC2 Dashboard → Launch Templates**.
-2. Click **Create launch template**.
-3. Fill out:
-    - **Name**: e.g., `MyWebServerTemplate`
-    - **Template version description**: optional
-    - **AMI**: Select an OS image (Amazon Linux 2, Ubuntu, etc.).
-    - **Instance type**: e.g., `t2.micro` (Free Tier eligible).
-    - **Key pair**: Select existing or create new.
-    - **Security group**:
-        - Allow SSH (22) for Linux or RDP (3389) for Windows.
-        - Allow HTTP (80)/HTTPS (443) if hosting a web app.
-    - **Storage**: Default 8 GB or increase if required.
-4. Expand the **Advanced details** section.
-    - Find **User data** field.
-    - Paste your **startup script**. Example (Amazon Linux / Ubuntu):
+1. Log in to the **AWS Management Console**.
+2. In the search bar, type **EC2** and open the **EC2 Dashboard**.
+3. Click **Launch Instance**.
+4. Configure:
+   - **Name**: e.g., `MyFirstEC2`
+   - **AMI**: Select OS (Amazon Linux 2, Ubuntu, or Windows).
+   - **Instance type**: `t2.micro` (Free Tier eligible).
+   - **Key Pair**: Choose existing or create new.
+   - **Network settings**:
+     - Use default VPC/subnet.
+     - Security group rules:  
+       - SSH (22) for Linux or RDP (3389) for Windows  
+       - HTTP (80)/HTTPS (443) if hosting web content
+   - **Storage**: Default (8 GB) or larger if required.
+5. Click **Launch Instance**.
+6. Verify instance state = **Running** in **EC2 → Instances**.
+
+---
+
+## 📜 Part 2: Create a Launch Template (with User Data Script)
+
+A Launch Template lets you reuse configuration and automatically bootstrap the instance with a script.
+
+1. In the **EC2 Dashboard**, go to **Launch Templates** → **Create launch template**.
+2. Fill out:
+   - **Template name**: e.g., `MyWebServerTemplate`
+   - **AMI**: Select an OS image (Amazon Linux 2 / Ubuntu).
+   - **Instance type**: e.g., `t2.micro`.
+   - **Key pair**: Select existing or create new.
+   - **Security group**: Configure inbound rules (SSH, HTTP, etc.).
+   - **Storage**: Default (8 GB) unless more is needed.
+3. Expand **Advanced details** → find **User data** field.
+4. Paste your script. Example (Amazon Linux 2):
 
 ```bash
 # Use this for your user data (script from top to bottom)
@@ -100,22 +117,24 @@ echo "
 rm -f /tmp/local_ipv4 /tmp/az /tmp/macid
 ```
 
+👉 Replace with your own script as needed.
+
 5. Review settings and click **Create launch template**.
 
 ---
 
-## 🚀 Step 2: Launch an Instance from Template
+## 🚀 Part 3: Launch an Instance from Template
 
 1. Go to **EC2 → Launch Templates**.
 2. Select your template → **Actions → Launch instance from template**.
-3. Review and adjust details (VPC, subnet, etc.).
+3. Choose / Review and adjust details (VPC, subnet, etc.).
 4. Click **Launch instance**.
-5. Navigate to **Instances → Select your instance** and verify it’s **Running**.
-6. Once booted, your **User Data script** will have installed and configured software automatically.
+5. Navigate to **Instances → Select your instance** and Verify instance state = **Running in EC2 → Instances**.
+6. If your script installed a web server, test by opening the instance’s Public IPv4 address in a browser.
 
 ---
 
-## 🔌 Step 3: Connect to Your EC2 Instance
+## 🔌 Step 4: Connect to Your EC2 Instance
 
 1. Select your instance in the **EC2 Dashboard**.
 2. Click **Connect** at the top.
@@ -123,11 +142,11 @@ rm -f /tmp/local_ipv4 /tmp/az /tmp/macid
     - **EC2 Instance Connect (browser-based)** (works with Amazon Linux 2/Ubuntu).
     - **SSH client** using your `.pem` key.
     - **Session Manager** (if IAM roles/permissions configured).
-4. If your script installed a web server, open the instance’s **Public IPv4 address** in a browser → you should see your web page.
+4. Once inside, confirm your script/software ran as expected.
 
 ---
 
-## 🛑 Step 4: Teardown Instructions
+## 🛑 Step 5: Teardown Instructions
 
 To avoid charges:
 
