@@ -39,66 +39,6 @@ Class 7 2025 Homework Submissions Repo for THEO WAF
 
 <br>
 
-1. Pull or clone the Class7 Homeworkk Repo on your gitbash terminal to your git on your local machine. You will only be allowed to pull once you have cloned the repo. 
-
-
-```bash
-git clone https://github.com/Melanated-Cyber-Kings/Class7-Homework.git
-```
-
-```bash
-git pull origin "name of your branch goes here"
-```
-
-
-2. Navigate to the cloned repo location in your gitbash terminal and create folders Week 1, Week 2, and so on. These are the folders that will have your homework in
-
-3. Create your branches and switch into it immediately. (I have created the names as I want you to create your branches)
-
-```bash
-git checkout -b Hakeem-Shaffi-Homework-Branch
-```
-```bash
-git checkout -b Mahamed-Bashir-Homework-Branch
-```
-```bash
-git checkout -b Van-Ngila-Homework-Branch
-```
-```bash
-git checkout -b Adedji-Adeyemi-Homework-Branch
-```
-```bash
-git checkout -b Jay-Bailey-Homework-Branch
-```
-```bash
-git checkout -b Daniel-Bryce-Homework-Branch
-```
-```bash
-git checkout -b ST-Tucker-Homework-Branch
-```
-```bash
-git checkout -b Thomas-Bell-Homework-Branch
-```
-```bash
-git checkout -b Trevore-Jerome-Homework-Branch
-```
-```bash
-git checkout -b Voloxar-Karsze-Homework-Branch
-```
-```bash
-git checkout -b Mark-Thornhill-Homework-Branch
-```
-   
-5. Create Readme.md files in each folder you created above this will be the file that you will document your homework in and that will be presented to THEO, so make sure it's readable and that someone who wouldnt know how to do the homework/project can follow with little to no difficulty.
-
-6. Once you have done this any homework you have already done begin to tansfer it into these folders that you created above to your git on your local machine.
-
-   
-
-
-
-<br>
-
 
 
 
