@@ -1,5 +1,14 @@
 # Class7-Homework
 
+# Class 7 Zion: AWS Homework - Mahamed Bashir
+
+This repository contains all Class 7 homework submissions for Mahamed Bashir.
+
+**We are the Melanated Cyber Kings**. We are Black Cloud Excellence. Resistance is futile.
+![Locutus of Borg saying Resistance is Futile](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3lhZG12dWMwMzN2eG9mMzU4amJ0NTVsejc1dnBhYjB0djhvZHQ1dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GbzIMCw41eUBa/giphy.gif)
+
+---
+
 Class 7 2025 Homework Submissions Repo for THEO WAF 
 
 <h1 align="center">AWS CLASS 7 HOMEWORK</h1>
