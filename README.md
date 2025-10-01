@@ -51,6 +51,8 @@ This repository is where we collaborate, submit, and organize weekly assignments
 
 ```bash
   git clone https://github.com/Melanated-Cyber-Kings/Class7-Homework.git
+
+  git pull origin "name of your branch goes here"
 ```
 
 </details>
