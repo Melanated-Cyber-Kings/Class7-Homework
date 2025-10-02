@@ -1,0 +1,49 @@
+Command Line, file management, Git hub
+
+Type in Git Bash in windows search
+
+
+
+Git Bash is a shell aka a programme that allows you to directly interact with the computer. 
+
+GUI (graphical user interface) - The part that you see when you’re not directly interacting with the computer
+
+Git bash > Run as administrator
+
+
+
+Typing in pwd 
+
+pwd/ print working directory gives you an idea of where you are in the document or what the gitbash is seeing. You may need to give gitbash or powershell a specific route so you can move according or take the necessary actions 
+
+Typing in ls allows you to then see the folders in that directory 
+
+
+If it is not showing the path you want you need to change directory 
+
+Cd = change directory 
+
+Type e.g. cd documents in git bash <<< Takes to new route << in this example documents
+
+cd .. goes back up a level or area 
+
+
+
+
+THIS TYPE OF WORK is key why you need to have organised directories
+
+If you type in mkdir <<< this will create new folder WITHIN the folder you’re in ( in the directory you’re in) via the shell and appear in gui once refreshed
+
+To create file in the folder via the shell type “touch” followed by the file name
+
+
+
+
+To remove file in the folder via the shell type “rm” followed by the file name
+
+
+
+Make sure you are specific with what delete as you NEVER wnt to delete route. 
+
+
+ 
