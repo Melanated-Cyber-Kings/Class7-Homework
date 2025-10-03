@@ -14,7 +14,6 @@
 ### Hobbies:
 
 - **Writing software/cloud engineering.**
-[<img src="./images/cloud-computing.webp" alt="Writing software/cloud engineering" width=""/>](./images/cloud-computing.webp)
 
 - **Trading the Markets.**
 [<img src="./images/trading_setup.jpeg" alt="My trading setup" width=""/>](./images/trading_setup.jpeg)
