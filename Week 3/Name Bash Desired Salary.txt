@@ -1,7 +1,0 @@
-Name: Bash
-Desired Salary: $300k
-Group Leader: Brimah
-Hobbies: Marksmanship. Muay Thai. Trading Markets. Writing software/cloud engineering. Driving. Really fast. Jumping out of planes. Swimming in the blue. Putting her through the mattress.
-
-
-
