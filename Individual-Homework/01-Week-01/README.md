@@ -6,10 +6,10 @@ TheoWAF's EC2 Script --> https://github.com/BashiM1/bmc5/blob/main/ec2scrpit
 # Images (screenshots)
 
 Samurai Katana screenshot
-![samurai-katana](./images/samurai-katana-screenshot.png)
+[<img src="./images/samurai-katana-screenshot.png" alt="Samurai katana" width=""/>](./images/samurai-katana-screenshot.png)
 
 AWS console - My Instance Summary
-![my-instance-summary](./images/instance-summary.png)
+[<img src="./images/instance-summary.png" alt="My Instance summary" width=""/>](./images/instance-summary.png)
 
 
 # Complete EC2 Setup & Teardown:
