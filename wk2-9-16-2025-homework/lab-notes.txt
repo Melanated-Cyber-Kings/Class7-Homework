@@ -1,9 +1,0 @@
-choose instance, actions-> images and templates, create template from instance
-
-then launch instance, launch instance from template, select template.
-
-launch template, select template, actions, modify template (create new version)
-use templates as a form of versioning
-
-templates are saved per region, not globally.
-have to duplicate manually or use terraform (later)
