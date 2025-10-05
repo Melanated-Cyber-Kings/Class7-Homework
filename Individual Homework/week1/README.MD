@@ -30,12 +30,13 @@ Deploy a basic EC2 instance in an AWS region.
 
     - Tags: Add tags to support being able to find or have an idea what or when this was created. 
 
-    ![SecurityGroup](IndividualIndividual%20Homework/week1/graphics/aws-security-group-01.png)
+    ![SecurityGroup](/Individual%20Homework/week1/graphics/aws-security-group-01.png)
+  
 
     - Select Create Security Group 
     - Verify the newly created SG has the settings you require.
 
-    ![Completed SG](Individual%20Homework/week1/graphics/completed-security-group.png)
+    ![Completed SG](/Individual%20Homework/week1/graphics/completed-security-group.png)
 
 5. Obtain a startup script for your EC2 instance.
 
@@ -63,7 +64,7 @@ Deploy a basic EC2 instance in an AWS region.
             - Private key file format: .pem
         - Select Create key pair button.
 
-        ![Create Key pair](Individual%20Homework/week1/graphics/aws-ec2-create-key-pair.png)
+        ![Create Key pair](/Individual%20Homework/week1/graphics/aws-ec2-create-key-pair.png)
 
 
         [NOTE] A PEM file with the name of your key will be downloaded to your management system that you are accessing the AWS EC2 dashboard. Please be sure to store the file in a safe place.
@@ -76,11 +77,11 @@ Deploy a basic EC2 instance in an AWS region.
         - In Firewall (security groups), select existing security group
             - Select the security group you created earlier. In this example we named it SG-01.
 
-        ![network settings](Individual%20Homework/week1/graphics/aws-ec2-network-settings.png)
+        ![network settings](/Individual%20Homework/week1/graphics/aws-ec2-network-settings.png)
 
     - Configure Storage: Leave this as is.
 
-        ![configure storage default](Individual%20Homework/week1/graphics/aws-ec2-configure-storage.png)
+        ![configure storage default](/Individual%20Homework/week1/graphics/aws-ec2-configure-storage.png)
 
     - Advanced details.
         [CAUTION] There are a lot of settings here that can be modified. For this project we will *ONLY* leverage the user data feature.
@@ -89,15 +90,15 @@ Deploy a basic EC2 instance in an AWS region.
 
         - Open the ec2script.txt file and copy and paste the contents into the user data field.
 
-        ![user-data-field](Individual%20Homework/week1/graphics/aws-ec2-user-data-with-content.png)
+        ![user-data-field](/Individual%20Homework/week1/graphics/aws-ec2-user-data-with-content.png)
     
     - Under the Summary field select Launch Instance. 
 
-        ![EC2 summary](Individual%20Homework/week1/graphics/aws-ec2-summary.png)
+        ![EC2 summary](/Individual%20Homework/week1/graphics/aws-ec2-summary.png)
 
         If all of your settings were correct then you should see a green banner stating that the launch was successful.
 
-        ![Launch successful](Individual%20Homework/week1/graphics/aws-ec2-launch-successful.png)
+        ![Launch successful](/Individual%20Homework/week1/graphics/aws-ec2-launch-successful.png)
 
     - Select the URL for the EC2 instance in the GREEN success popup in the web browser.
 
@@ -107,7 +108,7 @@ Deploy a basic EC2 instance in an AWS region.
 
     [NOTE] Recall that we are only using the HTTP protocol. So to confirm we have a working service we need to set the browser to use HTTP and *not* HTTPS.
 
-    ![Webpage-example-deployment](Individual%20Homework/week1/graphics/example-webpage.png)
+    ![Webpage-example-deployment](/Individual%20Homework/week1/graphics/example-webpage.png)
 
 
 
@@ -120,11 +121,11 @@ In any deployment on AWS we want to make sure we remove all objects we created. 
 
 - Select each running EC2 instance and select Instance State > Terminate Instances
 
-![AWS Terminate EC2 Example](Individual%20Homework/week1/graphics/aws-ec2-terminate-instance.png)
+![AWS Terminate EC2 Example](/Individual%20Homework/week1/graphics/aws-ec2-terminate-instance.png)
 
 - Select the refresh icon to make sure all instances are terminated.
 
-![AWS EC2 terminated](Individual%20Homework/week1/graphics/aws-ec2-terminated-instances.png)
+![AWS EC2 terminated](/Individual%20Homework/week1/graphics/aws-ec2-terminated-instances.png)
 
 - Remove the Security Group we created for this demonstration.
 
@@ -133,7 +134,7 @@ In any deployment on AWS we want to make sure we remove all objects we created. 
 
  [WARNING] DO NOT TOUCH the *default* security group of the VPC!!!
 
- ![AWS VPC Custom SG](Individual%20Homework/week1/graphics/aws-vpc-custom-security-group.png)
+ ![AWS VPC Custom SG](/Individual%20Homework/week1/graphics/aws-vpc-custom-security-group.png)
 
 - Refresh the window and you should see your original default VPC security group.
 
@@ -144,7 +145,7 @@ In the Resources you should not see any Running Instances. You may see a number 
 
 As pictured below in the EC2 dashboard I have a quantity of 2 instances. Selecting the Instances shows that those match the last 2 instances that were terminated. You will notice in the screenshot that the dashboard shows no Instances in a *running* state.
 
-![EC2 Dashboard](Individual%20Homework/week1/graphics/ec2-dashboard-instance.png)
+![EC2 Dashboard](/Individual%20Homework/week1/graphics/ec2-dashboard-instance.png)
 
 
-![EC2 Terminated Instances](Individual%20Homework/week1/graphics/aws-ec2-terminated-instances.png)
+![EC2 Terminated Instances](/Individual%20Homework/week1/graphics/aws-ec2-terminated-instances.png)
