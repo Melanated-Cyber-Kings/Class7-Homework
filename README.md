@@ -33,7 +33,7 @@ Class 7 2025 Homework Submissions Repo for THEO WAF
 
 **11:** <a href="https://github.com/theswordpt-git">Mark Thornhill</a> 
 
-**12:** <a href=" https://github.com/AnunnakiRa/AWS-Class7-Homework.git">Anunnaki MetuNetter AmenRa</a> 
+**12:** <a href="https://github.com/AnunnakiRa/AWS-Class7-Homework.git">Anunnaki MetuNetter AmenRa</a> 
 
 **13:** <a href="https://github.com/Lew228">Shawn Mosby</a> 
 
