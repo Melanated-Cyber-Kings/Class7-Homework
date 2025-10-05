@@ -6,7 +6,7 @@ Deploy a basic EC2 instance in an AWS region.
 
 2. Set AWS region to us-east-2. Move to the EC2 dashboard.
 
-![EC2 Dashboard](/Individual-Homework/03-week3-03/graphics/aws-ec2-dashboard.png)
+![EC2 Dashboard](/Individual-Homework/03-week-03/graphics/aws-ec2-dashboard.png)
 
 3. There should be a default Virtual Private Cloud. You can use the default or create a new VPC. A good practice is to create a new VPC for projects and leave the default VPC alone.
 
