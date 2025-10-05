@@ -1,110 +1,106 @@
-# Class7-Homework
+# 🌐 AWS Class 7 – Homework Repository
 
-Class 7 2025 Homework Submissions Repo for THEO WAF 
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge) 
+![Contributors](https://img.shields.io/badge/Contributors-11-blue?style=for-the-badge) 
+![Homework](https://img.shields.io/badge/Homework-Weekly-orange?style=for-the-badge) 
+![AWS](https://img.shields.io/badge/AWS-Learning-yellow?style=for-the-badge) 
 
-<h1 align="center">AWS CLASS 7 HOMEWORK</h1>
+Welcome to the **Class 7 Homework Repo** for **THEO WAF**.  
+This repository is where we collaborate, submit, and organize weekly assignments.  
 
+---
 
-**Group Leader:** 
-<a href="https://github.com/Brimah-Khalil-Kamara">Brimah</a>
+## 📑 Table of Contents
+- [👥 Team Overview](#-team-overview)
+- [📖 Homework Instructions](#-homework-instructions)  
+  - [🟢 Step 1: Clone the Repo](#-step-1-clone-the-repo)  
+  - [🔵 Step 2: Pull Your Branch](#-step-2-pull-your-branch)  
+  - [🟡 Step 3: Organize Folders](#-step-3-organize-folders)  
+  - [🟣 Step 4: Create Your Branch](#-step-4-create-your-branch)  
+  - [📝 Step 5: Document Your Work](#-step-5-document-your-work)  
+  - [📤 Step 6: Submit Homework](#-step-6-submit-homework)  
 
+---
 
-**Group Members:**
+## 👥 Team Overview
 
-**1:** <a href="https://github.com/pushashaft">Hakeem Shaffi</a>
+- **Leader:** [![Brimah Khalil Kamara](https://img.shields.io/badge/Leader-Brimah_Khalil_Kamara-blue?style=for-the-badge&logo=github)](https://github.com/Brimah-Khalil-Kamara)  
 
-**2:** <a href="https://github.com/BashiM1">Mahamed Bashir</a> 
+<details>
+<summary>📌 View All Members</summary><br>
 
-**3:** <a href="https://github.com/waseeconsulting-git">Van Ngila</a> 
+[![Hakeem Shaffi](https://img.shields.io/badge/Member-Hakeem_Shaffi-lightgrey?style=flat-square&logo=github)](https://github.com/pushashaft)  
+[![Mahamed Bashir](https://img.shields.io/badge/Member-Mahamed_Bashir-lightgrey?style=flat-square&logo=github)](https://github.com/BashiM1)  
+[![Van Ngila](https://img.shields.io/badge/Member-Van_Ngila-lightgrey?style=flat-square&logo=github)](https://github.com/waseeconsulting-git)  
+[![Adedji Adeyemi](https://img.shields.io/badge/Member-Adedji_Adeyemi-lightgrey?style=flat-square&logo=github)](https://github.com/anthonyadeconsulting-source)  
+[![Jay Bailey](https://img.shields.io/badge/Member-Jay_Bailey-lightgrey?style=flat-square&logo=github)](https://github.com/jareonbailey-web)  
+[![Daniel Bryce](https://img.shields.io/badge/Member-Daniel_Bryce-lightgrey?style=flat-square&logo=github)](https://github.com/DBs-art)  
+[![ST Tucker](https://img.shields.io/badge/Member-ST_Tucker-lightgrey?style=flat-square&logo=github)](https://github.com/statuc30721)  
+[![Thomas Bell](https://img.shields.io/badge/Member-Thomas_Bell-lightgrey?style=flat-square&logo=github)](https://github.com/thomas065)  
+[![Trevore Jerome](https://img.shields.io/badge/Member-Trevore_Jerome-lightgrey?style=flat-square&logo=github)](https://github.com/Futurist2099)  
+[![Voloxar Karsze](https://img.shields.io/badge/Member-Voloxar_Karsze-lightgrey?style=flat-square&logo=github)](https://github.com/theswordpt-git)  
+[![Mark Thornhill](https://img.shields.io/badge/Member-Mark_Thornhill-lightgrey?style=flat-square&logo=github)](https://github.com/theswordpt-git)  
+</details>
 
-**4:** <a href="https://github.com/anthonyadeconsulting-source">Adedji Adeyemi</a> 
+---
 
-**5:** <a href="https://https://github.com/jareonbailey-web">Jay Bailey</a> 
+## 📖 Homework Instructions
 
-**6:** <a href="https://github.com/DBs-art">Daniel Bryce</a> 
+<details open>
+<summary>🟢 Step 1: Clone the Repo</summary>
 
-**7:** <a href="https://https://github.com/statuc30721">ST Tucker</a> 
+```bash
+  git clone https://github.com/Melanated-Cyber-Kings/Class7-Homework.git
 
-**8:** <a href="https://github.com/thomas065">Thomas Bell</a> 
+  git pull origin "name of your branch goes here"
+```
 
-**9:** <a href="https://github.com/Futurist2099">Trevore Jerome</a> 
+</details>
 
-**10:** <a href="https://github.com/theswordpt-git">Voloxar Karsze</a> 
-
-**11:** <a href="https://github.com/theswordpt-git">Mark Thornhill</a> 
-
-<br>
-
-<h2 align="center">📌 Instructions</h2>
-
-<br>
-
-1. Pull or clone the Class7 Homeworkk Repo on your gitbash terminal to your git on your local machine. You will only be allowed to pull once you have cloned the repo. 
-
+<details>
+<summary>🔵 Step 2: Pull Your Branch</summary>
 
 ```bash
 git clone https://github.com/Melanated-Cyber-Kings/Class7-Homework.git
+
+git pull origin <your-branch-name>
 ```
+
+</details>
+
+<details>
+<summary>🟡 Step 3: Organize Folders</summary>
+📂 Create directories for each week:
+Week1, Week2, Week3, ...
+
+📌 Each week’s homework goes into its respective folder.
+</details>
+
+<details>
+<summary>🟣 Step 4: Create Your Branch</summary>
 
 ```bash
-git pull origin "name of your branch goes here"
+git checkout -b Your-Name-Homework-Branch
 ```
 
+✅ Always switch into your branch immediately after creating it.
+</details>
 
-2. Navigate to the cloned repo location in your gitbash terminal and create folders Week 1, Week 2, and so on. These are the folders that will have your homework in
+<details>
+<summary>📝 Step 5: Document Your Work</summary>
 
-3. Create your branches and switch into it immediately. (I have created the names as I want you to create your branches)
+📝 Add a README.md in each folder.
 
-```bash
-git checkout -b Hakeem-Shaffi-Homework-Branch
-```
-```bash
-git checkout -b Mahamed-Bashir-Homework-Branch
-```
-```bash
-git checkout -b Van-Ngila-Homework-Branch
-```
-```bash
-git checkout -b Adedji-Adeyemi-Homework-Branch
-```
-```bash
-git checkout -b Jay-Bailey-Homework-Branch
-```
-```bash
-git checkout -b Daniel-Bryce-Homework-Branch
-```
-```bash
-git checkout -b ST-Tucker-Homework-Branch
-```
-```bash
-git checkout -b Thomas-Bell-Homework-Branch
-```
-```bash
-git checkout -b Trevore-Jerome-Homework-Branch
-```
-```bash
-git checkout -b Voloxar-Karsze-Homework-Branch
-```
-```bash
-git checkout -b Mark-Thornhill-Homework-Branch
-```
-   
-5. Create Readme.md files in each folder you created above this will be the file that you will document your homework in and that will be presented to THEO, so make sure it's readable and that someone who wouldnt know how to do the homework/project can follow with little to no difficulty.
+Keep instructions clear and beginner-friendly.
 
-6. Once you have done this any homework you have already done begin to tansfer it into these folders that you created above to your git on your local machine.
+Someone with no prior context should be able to follow your steps.
+</details>
 
-   
+<details> <summary>📤 Step 6: Submit Homework</summary>
 
+📤 Transfer all your completed assignments into the appropriate weekly folder.
+🎯 Make sure everything is neat, readable, and presentation-ready for THEO.
+</details>
 
-
-<br>
-
-
-
-
-
-
-
-
-
-
+---
+✨ Stay consistent, collaborate effectively, and keep your submissions polished!
