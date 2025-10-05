@@ -30,7 +30,7 @@ Deploy a basic EC2 instance in an AWS region.
 
     - Tags: Add tags to support being able to find or have an idea what or when this was created. 
 
-    ![SecurityGroup](Individual%20Homework/week1/graphics/aws-security-group-01.png)
+    ![SecurityGroup](IndividualIndividual%20Homework/week1/graphics/aws-security-group-01.png)
 
     - Select Create Security Group 
     - Verify the newly created SG has the settings you require.
