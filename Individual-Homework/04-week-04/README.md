@@ -2,7 +2,7 @@
 
 ## Amazon Web Service (AWS) Network Architecture 
 
-Documentation: Details are in file [AWS Network Architecture](../class07-hw04-aws-network.xlsx)
+Documentation: Details are in file [AWS Network Architecture](/04-week-04/class07-hw04-aws-network.xlsx)
 
 ##  Quiz Results
 
