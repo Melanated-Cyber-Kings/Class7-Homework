@@ -30,12 +30,12 @@ Deploy a basic EC2 instance in an AWS region.
 
     - Tags: Add tags to support being able to find or have an idea what or when this was created. 
 
-    ![SecurityGroup](/week1//graphics/aws-security-group-01.png)
+    ![SecurityGroup](Individual%20Homework/week1/graphics/aws-security-group-01.png)
 
     - Select Create Security Group 
     - Verify the newly created SG has the settings you require.
 
-    ![Completed SG](Individual%20Homework/week1//graphics/completed-security-group.png)
+    ![Completed SG](Individual%20Homework/week1/graphics/completed-security-group.png)
 
 5. Obtain a startup script for your EC2 instance.
 
@@ -63,7 +63,7 @@ Deploy a basic EC2 instance in an AWS region.
             - Private key file format: .pem
         - Select Create key pair button.
 
-        ![Create Key pair](Individual%20Homework/week1//graphics/aws-ec2-create-key-pair.png)
+        ![Create Key pair](Individual%20Homework/week1/graphics/aws-ec2-create-key-pair.png)
 
 
         [NOTE] A PEM file with the name of your key will be downloaded to your management system that you are accessing the AWS EC2 dashboard. Please be sure to store the file in a safe place.
@@ -76,7 +76,7 @@ Deploy a basic EC2 instance in an AWS region.
         - In Firewall (security groups), select existing security group
             - Select the security group you created earlier. In this example we named it SG-01.
 
-        ![network settings](Individual%20Homework/week1//graphics/aws-ec2-network-settings.png)
+        ![network settings](Individual%20Homework/week1/graphics/aws-ec2-network-settings.png)
 
     - Configure Storage: Leave this as is.
 
