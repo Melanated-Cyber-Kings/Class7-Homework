@@ -7,7 +7,7 @@
     - [Sort Content by Size](#sort-content-by-size)
     - [Different Formats](#different-formats)
     - [A Few Arguments More](#a-few-arguments-more)
-    - [Test_1 your knowledge!](#test_1-your-knowledge!)
+    - [Test your knowledge](#test-your-knowledge)
 - [MAN Basics](#man-basics)
 - [Section 6](#setup)
 - [Section 7](#usage)
@@ -138,7 +138,7 @@ ls -lSh
 [🔝 Back to Top](#top)
 
 
-# Different Formats
+## Different Formats
 Ok, we are able to sort the list. Now it is time to format it a little.
 
 The first option will be applied to simple ls.
@@ -167,7 +167,7 @@ ls -l --time-style=full-iso
 
 [🔝 Back to Top](#top)
 
-# A Few Arguments More
+## A Few Arguments More
 To finalize some usefull arguments, please take a look on these:
 
 ls -al --author prints the username of the creator of the file.
@@ -193,7 +193,7 @@ ls --help
 
 [🔝 Back to Top](#top)
 
-# Test_1 your knowledge!
+## Test your knowledge
 Q1: What is the whole command to show long formatted list of the files in directory?
 
 Answer
