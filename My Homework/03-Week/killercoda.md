@@ -196,9 +196,10 @@ ls --help
 ## Test your knowledge
 Q1: What is the whole command to show long formatted list of the files in directory?
 
-Answer
+<details>
+<summary>Answer</summary>
 ls -l
-
+</details>
 
 Q2: The argument for sort files?
 
@@ -253,6 +254,8 @@ Q9: List files in short format, one file per line, with quotes.
 
 Answer
 ls -1Q
+
+[🔝 Back to Top](#top)
 
 # MAN Basics
 Let's start with simple
