@@ -5,9 +5,12 @@
 ### Happy Place:
 [<img src="/capecod.jpeg" alt="My happy place"/>](/capecod.jpeg)
 
+---
+
 ### Hobby:
 [<img src="/hobby.jpeg" alt="My hobby"/>](/hobby.jpeg)
 
+---
 
 # 🧭 Basic Command Line Commands 🧭
 
@@ -20,3 +23,4 @@
 | `cd`    | Change directory (folder)                    | `cd Documents`      |
 | `mkdir` | Create (make) a new directory (folder)       | `mkdir new_project` |
 
+---
