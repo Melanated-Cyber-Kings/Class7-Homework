@@ -1,6 +1,6 @@
 ## 📑 Table of Contents
-- [Section 1](#sorting)
-- [Section 2](#sorting-content-by-size)
+- [Sorting](#sorting)
+- [Sorting Content by Size](#sorting-content-by-size)
 - [Section 3](#different-formats)
 - [Section 4](#faq)
 - [Section 5](#overview)
@@ -13,7 +13,7 @@
 
 
 
-# Sorting
+## Sorting
 Obviously, all lists can be sorted. There is no exception here.
 
 Linux allows us to list files using multiple sorting options. ls command has some options built-in. First type of sort we already observed. By default ls sorts the files alphabetically. Let's try something else.
@@ -80,7 +80,7 @@ ls -ltu
 ls -ltc
 ```
 
-# Sort content by size
+## Sort content by size
 OK, we know how to sort files by time, let's learn how to do it by size.
 
 As usual, we have multiple options to do so.
