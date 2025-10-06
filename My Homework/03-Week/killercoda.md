@@ -235,7 +235,8 @@ ls --color=auto
 
 > Q4: UID represents
 
-|---------- | ----------------- |
+| UID command                   |
+|------------------------------ |
 | `Process identifier`          |
 |`User identifier`              |
 |`Group identifier`             |
