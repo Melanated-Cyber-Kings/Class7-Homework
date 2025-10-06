@@ -80,7 +80,7 @@ ls -ltu
 ls -ltc
 ```
 
-## Sort content by size
+## Sort - content - by - size
 OK, we know how to sort files by time, let's learn how to do it by size.
 
 As usual, we have multiple options to do so.
