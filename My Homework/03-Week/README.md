@@ -3,12 +3,12 @@
 ## Group Leader - Brimah_Khalil_Kamara
 
 ### Happy Place:
-[<img src="/capecod.jpeg" alt="My happy place"/>](/capecod.jpeg)
+[<img src="./img/capecod.jpeg" alt="My happy place"/>](./img/capecod.jpeg)
 
 ---
 
 ### Hobby:
-[<img src="/hobby.jpeg" alt="My hobby"/>](/hobby.jpeg)
+[<img src="./img/hobby.jpeg" alt="My hobby"/>](./img/hobby.jpeg)
 
 ---
 
