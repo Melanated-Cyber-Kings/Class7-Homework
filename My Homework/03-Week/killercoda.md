@@ -1,6 +1,8 @@
 <a id="top"></a>
 
-## 📑 Table of Contents
+<details>
+    <summary>📑 Table of Contents</summary>
+
 - [Sorting](#sorting)
 - [Sort Content by Size](#sort-content-by-size)
 - [Different formats](#different-formats)
@@ -12,6 +14,7 @@
 - [Section 9](#faq)
 - [Section 10](#faq)
 
+</details>
 
 
 
