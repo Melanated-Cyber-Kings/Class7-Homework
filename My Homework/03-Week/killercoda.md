@@ -194,7 +194,7 @@ ls --help
 [🔝 Back to Top](#top)
 
 ## Test your knowledge
-Q1: What is the whole command to show long formatted list of the files in directory?
+> Q1: What is the whole command to show long formatted list of the files in directory?
 
 <details>
 <summary>Answer</summary>
@@ -205,20 +205,31 @@ ls -l
 
 </details>
 
-Q2: The argument for sort files?
+> Q2: The argument for sort files?
 
-Answer
+<details>
+<summary>Answer</summary>
+
+```bash
 S
+```
 
+</details>
 
-Q3: I want to pass color argument. What I need to use?
+> Q3: I want to pass color argument. What do I need to use?
 
---
--
-.
-Answer
+Option 1: --
+Option 2: -
+Option 3: .
+
+<details>
+<summary>Answer</summary>
+
+```bash
 Option 1
+```
 
+</details>
 
 Q4: UID represents
 
