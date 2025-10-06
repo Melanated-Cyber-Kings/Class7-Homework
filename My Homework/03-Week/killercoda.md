@@ -1,7 +1,7 @@
 ## 📑 Table of Contents
 - [Sorting](#sorting)
 - [Sort Content by Size](#sort-content-by-size)
-- [Section 3](#different-formats)
+- [Different formats](#different-formats)
 - [Section 4](#faq)
 - [Section 5](#overview)
 - [Section 6](#setup)
@@ -91,15 +91,19 @@ First, we run this command
 ls -s
 ```
 
-This shows the short list of files and allocated space. As we already know, we can combine this argument - s - with others. Let's do it.
+- This shows the short list of files and allocated space. As we already know, we can combine this argument - s - with others. Let's do it.
 
+```bash
 ls -ls
+```
 
 But this is what you have by default, using ls -l, right? No? You are correct, the answer is no. Take a look on the beginning of each line, this is where you can find, what was added by -s.
 
 Why we used s? I wanted you to pay attention here. When capital S is used, this means sort.
 
+```bash
 ls -lS it sorts files by size, largest are going first.
+```
 
 So, arguments are case-sensitive, like... everything in Linux :)
 
@@ -107,17 +111,26 @@ Before we use the next command, there is one argument more to be learned. This a
 
 Let's try.
 
-ls -lh we have printed the size of the files not in bytes, but in more readable form, with K, M, or G, that sort of things.
+```bash
+ls -lh #we have printed the size of the files not in bytes, but in more readable form, with K, M, or G, that sort of things.
+```
 
-h use the powers of 1024. So, 1K is a 1 powered by 1024. We have another otion
+- h use the powers of 1024. So, 1K is a 1 powered by 1024. We have another otion
 
+```bash
 ls -l --si
+```
 
-which uses powers of 1000. But.. I think no one uses that :)
+- which uses powers of 1000. But.. I think no one uses that :)
 
 Ok, let's try to sort with h parameter
 
+```bash
 ls -lSh
+```
+
+[🔝 Back to Top](#📑-table-of-contents)
+
 
 # Different formats
 Ok, we are able to sort the list. Now it is time to format it a little.
