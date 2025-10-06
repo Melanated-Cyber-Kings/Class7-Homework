@@ -5,14 +5,14 @@
 ### My happy place:
 <img src="./img/capecod.jpg" alt="cape cod" width="800"/>
 
-> Cape Cod >
+> Cape Cod
 
 ---
 
 ### My hobby:
 <img src="./img/hobby.jpg" alt="video games" width="800"/>
 
-> Video Games, building PC's for gaming >
+> Video Games, building PC's for gaming
 
 ---
 
