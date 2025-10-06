@@ -4,10 +4,10 @@
     <summary>📑 Table of Contents</summary>
 
 - [Sorting](#sorting)
-- [Sort Content by Size](#sort-content-by-size)
-- [Different formats](#different-formats)
-- [Section 4](#faq)
-- [Section 5](#overview)
+    - [Sort Content by Size](#sort-content-by-size)
+    - [Different Formats](#different-formats)
+    - [A Few Arguments More](#a-few-arguments-more)
+- [MAN Basics](#man-basics)
 - [Section 6](#setup)
 - [Section 7](#usage)
 - [Section 8](#faq)
@@ -74,13 +74,13 @@ ls -ltc
 - Well, not much changed, right? Please execute these commands and carefully observe the output
 
 ```bash
-touch theNewestFile #(this creates a new file)
+touch theNewestFile # (this creates a new file)
 ls -ltu
 ls -ltc
-echo "hello world!" > file-02 #(this will add something to the file)
+echo "hello world!" > file-02 # (this will add something to the file)
 ls -ltu
 ls -ltc
-chmod 444 file-01 #(this will change the permissions of the file)
+chmod 444 file-01 # (this will change the permissions of the file)
 ls -ltu
 ls -ltc
 ```
@@ -117,7 +117,7 @@ Before we use the next command, there is one argument more to be learned. This a
 Let's try.
 
 ```bash
-ls -lh #we have printed the size of the files not in bytes, but in more readable form, with K, M, or G, that sort of things.
+ls -lh # we have printed the size of the files not in bytes, but in more readable form, with K, M, or G, that sort of things.
 ```
 
 - h use the powers of 1024. So, 1K is a 1 powered by 1024. We have another otion
@@ -137,7 +137,7 @@ ls -lSh
 [🔝 Back to Top](#top)
 
 
-# Different formats
+# Different Formats
 Ok, we are able to sort the list. Now it is time to format it a little.
 
 The first option will be applied to simple ls.
@@ -164,7 +164,7 @@ ls -l --time-style=locale
 ls -l --time-style=iso
 ls -l --time-style=full-iso
 
-# A few arguments more
+# A Few Arguments More
 To finalize some usefull arguments, please take a look on these:
 
 ls -al --author prints the username of the creator of the file.
