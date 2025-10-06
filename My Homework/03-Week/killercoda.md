@@ -1,4 +1,4 @@
-## 📑 Table of Contents
+# 📑 Table of Contents
 - [Sorting](#sorting)
 - [Sort Content by Size](#sort-content-by-size)
 - [Different formats](#different-formats)
@@ -129,7 +129,7 @@ Ok, let's try to sort with h parameter
 ls -lSh
 ```
 
-[🔝 Back to Top](##📑-table-of-contents)
+[🔝 Back to Top](#📑-table-of-contents)
 
 
 # Different formats
