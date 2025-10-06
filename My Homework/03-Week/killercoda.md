@@ -7,6 +7,7 @@
     - [Sort Content by Size](#sort-content-by-size)
     - [Different Formats](#different-formats)
     - [A Few Arguments More](#a-few-arguments-more)
+    - [Test_1 your knowledge!](#test_1-your-knowledge!)
 - [MAN Basics](#man-basics)
 - [Section 6](#setup)
 - [Section 7](#usage)
@@ -164,6 +165,8 @@ ls -l --time-style=locale
 ls -l --time-style=iso
 ls -l --time-style=full-iso
 
+[🔝 Back to Top](#top)
+
 # A Few Arguments More
 To finalize some usefull arguments, please take a look on these:
 
@@ -188,7 +191,9 @@ All commands which we used here are available in help. How to get the help?
 
 ls --help
 
-# Check your knowledge!
+[🔝 Back to Top](#top)
+
+# Test_1 your knowledge!
 Q1: What is the whole command to show long formatted list of the files in directory?
 
 Answer
