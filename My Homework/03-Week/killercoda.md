@@ -9,9 +9,9 @@
     - [A Few Arguments More](#a-few-arguments-more)
     - [Test your knowledge](#test-your-knowledge)
 - [MAN Basics](#man-basics)
-- [Section 6](#setup)
-- [Section 7](#usage)
-- [Section 8](#faq)
+    - [Exploring MAN](#exploring-man)
+    - [Another Helping Arguments](#another-helping-arguments)
+- [Create Directories](#create-directories)
 - [Section 9](#faq)
 - [Section 10](#faq)
 
@@ -235,7 +235,7 @@ ls --color=auto
 
 > Q4: UID represents
 
-| UID command                   |
+| UID representation?           |
 |------------------------------ |
 | `Process identifier`          |
 |`User identifier`              |
@@ -262,39 +262,64 @@ User identifier
 
 </details>
 
-Q6: I have my ls -lt command. What argument I need to add in order to see the list ordered by modification of the content of the files?
+> Q6: I have my ls -lt command. What argument I need to add in order to see the list ordered by modification of the content of the files?
 
-Answer
+<details>
+<summary>Answer</summary>
+
+```bash
 u
+```
+
+</details>
 
 
-Q7: Provide the full command for long format and human readable size.
+> Q7: Provide the full command for long format and human readable size.
 
-Answer
+<details>
+<summary>Answer</summary>
+
+```bash
 ls -lh
+```
 
+</details>
 
-Q8: Provide the full command (not -m) for short list with commas
+> Q8: Provide the full command (not -m) for short list with commas
 
-Answer
+<details>
+<summary>Answer</summary>
+
+```bash
 ls --format=commas
+```
+
+</details>
 
 
-Q9: List files in short format, one file per line, with quotes.
+> Q9: List files in short format, one file per line, with quotes.
 
-Answer
+<details>
+<summary>Answer</summary>
+
+```bash
 ls -1Q
+```
+
+</details>
 
 [🔝 Back to Top](#top)
 
-# MAN Basics
+## MAN Basics
 Let's start with simple
 
 man command. Well, it gives us a hint. Let's use it.
 
 Please, execute the
 
+```bash
 man man command.
+```
 
 Now we can spend at least 10 minutes reading what man command is, all the arguments, options, possibilities.
 
@@ -304,9 +329,13 @@ q to quit.
 
 Ok, now let's use the knowledge and learn more about ls.
 
+```bash
 man ls
+```
 
-# exploring man
+[🔝 Back to Top](#top)
+
+## Exploring MAN
 Now, we know how to access man, but it is only the first page.
 
 We have a possibility to navigate through pages (or sections). But what sections do we have available?
@@ -323,25 +352,35 @@ We have a possibility to navigate through pages (or sections). But what sections
        9   Kernel routines [Non standard]
 Ok, let's try to get system administration commands for ls command.
 
+```bash
 man 8 ls
+```
 
 Well, there is no page 8 for ls. How to check, what sections/pages we have available?
 
+```bash
 man -f ls
+```
 
 Ok, now we see, ls has 1 page only.
 
 Ok, let's use another command. This time it will be intro. This command in the introduction to Linux commands.
 
-man -f intro shows us multiple sections available.
+```bash
+man -f intro # shows us multiple sections available.
+```
 
 Let's play with them, and please remember, if you wish to quit, press q .
 
+```bash
 man intro
 man 1 intro
 man 8 intro
+```
 
-# Another helping arguments
+[🔝 Back to Top](#top)
+
+## Another Helping Arguments
 We have an option to quicly check what command do.
 
 whatis ls shows short description of the functionality.
@@ -354,7 +393,9 @@ man -k ls searches for the given command through all man pages, and returns all 
 
 man -w ls returns the location of the file from where the page is rendered.
 
-# Create directories
+[🔝 Back to Top](#top)
+
+## Create Directories
 First, let's check what we have in our current directory.
 
 ls -l
@@ -399,7 +440,9 @@ ls -l parentdir
 
 In this way we can list files in another directory.
 
-# Navigate through the system
+[🔝 Back to Top](#top)
+
+## Navigate through the system
 We already know what is inside the parentdir. Let's get there now. In order to change the directory, we need to use cd command. As you can expect, it is Change Directory in short.
 
 cd parentdir
@@ -438,7 +481,9 @@ cd ../..
 
 pwd Ok, we are back.
 
-# A little of theory
+[🔝 Back to Top](#top)
+
+## A little of theory
 Ok, now it is time for another concept, but before we do that, let's create one more directory
 
 mkdir root
@@ -483,7 +528,9 @@ In the first example we use relative path. It simply means we are navigating fro
 
 Therefore, if we are in our home directory, which is root... Well, don't be confused. We are logged as root user. root user is the most powerful entity in the whole Linux system and it's home directory is /root. Other users have their home directories under /home. So, when you are in /root directory, it is totally different when you type cd /root than cd root.
 
-# Time to go home!
+[🔝 Back to Top](#top)
+
+## Time to go home!
 Wherever we are in the Linux system, we have several ways to back home. Some says, all roads lead to Rome, in Linux it is almost true :)
 
 So, first, if you remember your home directory, use it
@@ -519,7 +566,9 @@ pwd
 
 Yes, just cd is enough to come back to home directory.
 
-# Delete directories
+[🔝 Back to Top](#top)
+
+## Delete directories
 Let's move to the home directory. cd
 
 pwd
@@ -587,7 +636,9 @@ rm -rf /
 
 and read the notification. Nowadays Linux try to be careful with its users and this command, do you understand why?
 
-# Check your knowledge
+[🔝 Back to Top](#top)
+
+## Check your knowledge
 Q1: How to check the current directory?
 
 Answer
@@ -644,7 +695,9 @@ Q9: How to remove everything without confirmation from /mydir/somedir? Consider 
 Answer
 rm -rf somedir
 
-# Create file(s)
+[🔝 Back to Top](#top)
+
+## Create file(s)
 In order to create empty file in Linux, we have to use touch command. Let's do it.
 
 touch testfile
@@ -688,7 +741,9 @@ touch testdir/mytest{01..1000} testdir/file{01..1000}
 
 Do you know what we've done?
 
-# Delete file(s)
+[🔝 Back to Top](#top)
+
+## Delete file(s)
 We already know the proper command. It is rm.
 
 We can remove single file
@@ -709,7 +764,9 @@ rm -rf testdir
 
 What -rf means? It is explained in previous lesson.
 
-# Vim
+[🔝 Back to Top](#top)
+
+## Vim
 Ok, vim is not part of this lesson. But I'd like to make sure, that we understand that touch is not only one way to create files.
 
 Let's run
@@ -734,7 +791,9 @@ ls -l mynewfile
 
 Yes, we have the file and it is not empty!
 
-# The pipes and redirections concept
+[🔝 Back to Top](#top)
+
+## The pipes and redirections concept
 The concepts is simple, really. The pipes and redirections are used to send (or retrieve) some information sent from one command or script to another command or script. It works on files too. Let's think about some examples:
 
 Count number of lines in the file
@@ -800,7 +859,9 @@ cat numbers.txt | sort | uniq | wc -l
 
 Yeah! That works.
 
-# Redirect to file
+[🔝 Back to Top](#top)
+
+## Redirect to file
 Now we will look on redirecting output to file.
 
 Normally, all output is going to the screen. Here we have streams concept involved, but this will be explained in another lab. For now, let's assume that all output is going to the screen.
@@ -864,7 +925,9 @@ cat directorylist.txt
 Summary of redirections
 You need to remember, that > will create file (if not exists) and rewrite all data as fresh file. >> behaves similarly, however, if there is any content in the fill, this redirection will add theoutput of the command on the end of existing content.
 
-# redirect from the file
+[🔝 Back to Top](#top)
+
+## redirect from the file
 We did redirection to the file. We can do it in oposite direction too.
 
 We have our numbers.txt file. When we print it, we see:
@@ -911,7 +974,9 @@ while read line; do echo "Content of the line: ${line}"; done < numbers.txt
 
 What we just did? We created a loop (we will talk about that later) and print every line from the file, as long as there is nothing more in the file numbers.txt.
 
-# Quiz
+[🔝 Back to Top](#top)
+
+## Quiz
 Q1: The sign | is used for pipe or redirection?
 
 Answer
@@ -958,7 +1023,9 @@ write count into numbers.txt file
 Answer
 Option 2
 
-# cat and vim
+[🔝 Back to Top](#top)
+
+## cat and vim
 In the current directory we have one "special" file, testfile. This file is a copy of syslog file and contains a lot of information. Enough, to see different ways to read the file.
 
 Let's check if the file is available.
@@ -1013,7 +1080,9 @@ view testfile
 
 In order to quit, please execute - :q.
 
-# Less and more
+[🔝 Back to Top](#top)
+
+## Less and more
 It is time to learn two new commands to print file content. We already know cat. The downside of cat is that this command prints the whole file in one shot. It is rather inconvenient to go through large files in this way.
 
 more
@@ -1051,7 +1120,9 @@ cat testfile | more
 
 cat testfile | less
 
-# Print part of the file
+[🔝 Back to Top](#top)
+
+## Print part of the file
 Despite the possibility of printing the whole file and navigate through it, we can print part of the file. We have two possibilities.
 
 head
@@ -1088,7 +1159,7 @@ cat testfile | head
 
 cat testfile | head -n4 | tail -n2
 
-# Quiz
+## Quiz
 Q1: Which command shows the whole file?
 
 cat
@@ -1120,7 +1191,9 @@ head -N5 file
 Answer
 Option 4
 
-# Copy files
+[🔝 Back to Top](#top)
+
+## Copy files
 First, let's take a look how to copy the file. Copy, means that we copy existing file to the new filename or location. The source file is still available.
 
 In this lab we have some directories structure with files prepared. Let's take a look.
@@ -1244,7 +1317,9 @@ Here we see that the whole structure is copied under the directory.
 
 ls -l testdir/*
 
-# Move files
+[🔝 Back to Top](#top)
+
+## Move files
 Ok, we know ho to copy files. Sometimes however, we want to move the file from one place to another. For this case, we need to use mv command. The usage is quite similar to cp, but... simpler.
 
 Move one file
@@ -1294,7 +1369,9 @@ ls -l newdir
 ls -l movedfiles
 ls -l movedfiles/newdir
 
-# More possibilities
+[🔝 Back to Top](#top)
+
+## More possibilities
 In order to copy file, or better to say, copy content of the file, we can use redirections.
 
 We have a special file - .profile. Let's use this file to copy the content.
@@ -1325,7 +1402,9 @@ No output means that both files are the same.
 
 There are other methods to copy files. Even to copy and transform the content during the process. But this is the basic tutorial, so we are not touhing them.
 
-# Our first administrative command - top
+[🔝 Back to Top](#top)
+
+## Our first administrative command - top
 At this moment we know a lot of commands. We are ready to look on some administrative side of the work with system. We will learn how to take a basic look on it. But don't be fooled, basic doesn't mean this command is very simple. It is not. The data collected is very vast and informative.
 
 top
@@ -1431,7 +1510,9 @@ S - process state (we discussed it above).
 TIME+ - total time of CPU usage by the process.
 COMMAND - quite obvious, this process is executed.
 
-# How to modify the default view
+[🔝 Back to Top](#top)
+
+## How to modify the default view
 top is a very powerful tool. The main functionality we already know, but it is not all. First, we can modify a lot of visual aspects. Let's do it!
 
 CPU and memory list
@@ -1527,7 +1608,9 @@ We touched here very limited number of options. There is much, much more to expl
 
 man top
 
-# Start with non default settings
+[🔝 Back to Top](#top)
+
+## Start with non default settings
 Many of options we used before can be executed directly from the command line. Here are the examples:
 
 top -o %MEM - run top with processes sorted by memory.
@@ -1542,7 +1625,9 @@ And the last example:
 
 top -u root will show the processes owned by root user.
 
-# First look on the ps command
+[🔝 Back to Top](#top)
+
+## First look on the ps command
 As almost everything in Linux, ps is an abbreviation of Process status.
 
 The simplest execution is just without any argument
@@ -1596,7 +1681,9 @@ ps -A
 
 It doesn't give much information, but at least you have all processes listed.
 
-# Most commonly used combinations
+[🔝 Back to Top](#top)
+
+## Most commonly used combinations
 Well, this lesson is not going through all arguments and combinations. All is in manual and I am sure you will find your best friend soon. But there are some combinations moslty used when admins run ps command.
 
 ps -ef
@@ -1644,7 +1731,9 @@ There is much, much more options, views, etc. Here we took a look on the base fu
 
 more information is in manual man ps
 
-# How to use alias
+[🔝 Back to Top](#top)
+
+## How to use alias
 Aliases give us a great possibility to "shape" command line to our needs. Let's suppose, we want to list all files in long format and with hidden files:
 
 ls -al
@@ -1693,7 +1782,9 @@ And let's try ll, what we should see?
 
 ll
 
-# Make alias permanent
+[🔝 Back to Top](#top)
+
+## Make alias permanent
 We have at least two ways of creating aliases "forever".
 
 First, take a look on .bashrc file.
@@ -1752,7 +1843,9 @@ And execute the new alias:
 
 lh1
 
-# Aliases for all users
+[🔝 Back to Top](#top)
+
+## Aliases for all users
 Here we touch the administrative part.
 
 To this point we created aliases for current user. We are able to create aliases for all users. In order to do this, we have to add something to global configuration.
