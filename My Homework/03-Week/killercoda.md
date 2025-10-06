@@ -1,6 +1,6 @@
 ## 📑 Table of Contents
 - [Sorting](#sorting)
-- [Sorting Content by Size](#sorting-content-by-size)
+- [Sort Content by Size](#sort-content-by-size)
 - [Section 3](#different-formats)
 - [Section 4](#faq)
 - [Section 5](#overview)
@@ -80,7 +80,7 @@ ls -ltu
 ls -ltc
 ```
 
-## Sort - content - by - size
+## Sort Content by Size
 OK, we know how to sort files by time, let's learn how to do it by size.
 
 As usual, we have multiple options to do so.
