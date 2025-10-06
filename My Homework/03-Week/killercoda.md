@@ -218,9 +218,9 @@ S
 
 > Q3: I want to pass color argument. What do I need to use?
 
-Option 1: --
-Option 2: -
-Option 3: .
+-- Option 1: | `ls`    | `ls --color=auto`                    |
+- Option 2:  | `grep`  | `grep --color=always 'pattern' file` |
+. Option 3:  | `diff`  | `diff --color=auto file1 file2`      |
 
 <details>
 <summary>Answer</summary>
