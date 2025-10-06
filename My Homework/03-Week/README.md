@@ -3,10 +3,10 @@
 ## Group Leader - Brimah_Khalil_Kamara
 
 ### Happy Place:
-[<img src="./capecod.jpeg" alt="My happy place" width=""/>](./capecod.jpeg)
+[<img src="/capecod.jpeg" alt="My happy place"/>](/capecod.jpeg)
 
 ### Hobby:
-[<img src="./hobby.jpeg" alt="My hobby" width=""/>](./hobby.jpeg)
+[<img src="/hobby.jpeg" alt="My hobby"/>](/hobby.jpeg)
 
 
 # 🧭 Basic Command Line Commands 🧭
