@@ -233,21 +233,33 @@ ls --color=auto
 
 </details>
 
-Q4: UID represents
+> Q4: UID represents
 
-Process identifier
+|---------- | ----------------- |
+| `Process identifier`          |
+|`User identifier`              |
+|`Group identifier`             |
+|`Internal system identifier`   |
+
+<details>
+<summary>Answer</summary>
+
+```bash
 User identifier
-Group identifier
-Internal system identifier
-Answer
-Option 2
+```
 
+</details>
 
-Q5: I want to list the parent directory files. What I need to add to my ls command?
+> Q5: I want to list the parent directory files. What I need to add to my ls command?
 
-Answer
+<details>
+<summary>Answer</summary>
+
+```bash
 `..`
+```
 
+</details>
 
 Q6: I have my ls -lt command. What argument I need to add in order to see the list ordered by modification of the content of the files?
 
