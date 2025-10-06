@@ -1,13 +1,13 @@
 # 💵 My desired income - $147,000.00 per year.
 
-## Group Leader - Brimah_Khalil_Kamara
+## 🧔🏾‍♂️ Group Leader - Brimah_Khalil_Kamara
 
-### Happy Place:
+### My happy place:
 <img src="./img/capecod.jpg" alt="cape cod" width="800"/>
 
 ---
 
-### Hobby:
+### My hobby:
 <img src="./img/hobby.jpg" alt="video games" width="800"/>
 
 ---
