@@ -3,10 +3,14 @@
 <details>
     <summary>📑 Table of Contents</summary>
 
-- [Sorting](#sorting)
+<details>
+    <summary>Section 1</summary>
+    - [Sorting](#sorting)
     - [Sort Content by Size](#sort-content-by-size)
     - [Different Formats](#different-formats)
     - [A Few Arguments More](#a-few-arguments-more)
+</details>
+
 - [MAN Basics](#man-basics)
 - [Section 6](#setup)
 - [Section 7](#usage)
