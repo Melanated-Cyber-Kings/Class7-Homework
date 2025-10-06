@@ -16,6 +16,9 @@
 
 ---
 
+# KillerCoda Screenshot
+<img src="./KillerCoda/Screenshots/L1.png" alt="lessons 1 to 10" width="800"/>
+
 # 🧭 Basic Command Line Commands 🧭
 
 | Command | Description                                  | Example             |
