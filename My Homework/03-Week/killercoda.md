@@ -198,7 +198,9 @@ Q1: What is the whole command to show long formatted list of the files in direct
 
 <details>
 <summary>Answer</summary>
+```bash
 ls -l
+```
 </details>
 
 Q2: The argument for sort files?
