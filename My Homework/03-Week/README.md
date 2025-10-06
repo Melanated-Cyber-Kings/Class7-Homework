@@ -1,5 +1,15 @@
+# 💵 My desired income - $147,000.00 per year.
 
-## 🧭 Basic Command Line Commands 🧭
+## Group Leader - Brimah_Khalil_Kamara
+
+### Happy Place:
+[<img src="./capecod.jpeg" alt="My happy place" width=""/>](./capecod.jpeg)
+
+### Hobby:
+[<img src="./hobby.jpeg" alt="My hobby" width=""/>](./hobby.jpeg)
+
+
+# 🧭 Basic Command Line Commands 🧭
 
 | Command | Description                                  | Example             |
 | ------- | -------------------------------------------- | ------------------- |
