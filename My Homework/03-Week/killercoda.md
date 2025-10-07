@@ -1,46 +1,76 @@
+# 🧰 Linux Command Line Study Notes
+
+> **Source:** [Killercoda](https://killercoda.com/)  
+> **Purpose:** A collection of notes, exercises, and explanations derived from Killercoda’s interactive Linux learning scenarios.  
+> These notes serve as a quick reference guide for essential Linux commands and system navigation techniques.
+
+---
+
+## 📘 Overview
+
+This document summarizes lessons and practical exercises from Killercoda’s Linux fundamentals environment.  
+It covers a wide range of topics including:
+
+- File and directory management  
+- Using `ls`, `rm`, `mkdir`, and `man` commands  
+- Text editing with `vim` and `cat`  
+- Redirection, pipes, and output handling  
+- Administrative tasks and process management  
+
+Whether you’re learning Linux for the first time or brushing up for certification or DevOps work,  
+this guide offers concise explanations and examples you can revisit anytime.
+
+---
+
 <a id="top"></a>
 
-<details>
-    <summary>📑 Table of Contents</summary>
+<details open>
+  <summary><b>📑 Table of Contents</b></summary>
 
-- [Sorting](#sorting)
-    - [Sort Content by Size](#sort-content-by-size)
-    - [Different Formats](#different-formats)
-    - [A Few Arguments More](#a-few-arguments-more)
-    - [Test your knowledge](#test-your-knowledge)
-- [MAN Basics](#man-basics)
-    - [Exploring MAN](#exploring-man)
-    - [Another Helping Arguments](#another-helping-arguments)
-- [Create Directories](#create-directories)
-    - [Navigating Through The System](#navigating-through-the-system)
-    - [Time To Go Home](#time-to-go-home)
-    - [Delete Directories](#delete-directories)
-    - [A Little Theory](#a-little-theory)
-    - [Check Your Knowledge](#check-your-knowledge)
-- [Create Files](#create-files)
-- [Delete Files](#delete-files)
-- [Vim](#vim)
-    - [The Pipes and Redirections Concept](#the-pipes-and-redirections-concept)
-    - [Redirect to File](#redirect-to-file)
-    - [Redirect from File](#redirect-from-file)
-    - [Quiz](#quiz)
-- [CAT and VIM](#cat-and-vim)
-    - [Less and More](#less-and-more)
-    - [Print Part of the File](#print-part-of-the-file)
-    - [Quiz 2](#quiz-2)
-- [Copy Files](#copy-files)
-    - [Move Files](#move-files)
-    - [More Possibilities](#more-possibilities)
-- [Our First Administrative Command](#our-first-administrative-command)
-    - [How to Modify the Default View](#how-to-modify-the-default-view)
-    - [Start with non Default Settings](#start-with-non-default-settings)
-- [First Look on the ps Command](#first-look-on-the-ps-command)
-    - [Most Commonly Used Combinations](#most-commonly-used-combinations)
-    - [How to use Alias](#how-to-use-alias)
-    - [Make Alias Permanent](#make-alias-permanent)
-    - [Aliases for all Users](#aliases-for-all-users)
+---
+
+- [🗂️ **Sorting**](#sorting)
+  - [🔹 Sort Content by Size](#sort-content-by-size)
+  - [🔹 Different Formats](#different-formats)
+  - [🔹 A Few Arguments More](#a-few-arguments-more)
+  - [🧠 Test Your Knowledge](#test-your-knowledge)
+- [📘 **MAN Basics**](#man-basics)
+  - [🔹 Exploring MAN](#exploring-man)
+  - [🔹 Another Helping Arguments](#another-helping-arguments)
+- [📂 **Create Directories**](#create-directories)
+  - [📁 Navigating Through The System](#navigating-through-the-system)
+  - [🏠 Time To Go Home](#time-to-go-home)
+  - [🗑️ Delete Directories](#delete-directories)
+  - [💡 A Little Theory](#a-little-theory)
+  - [🧩 Check Your Knowledge](#check-your-knowledge)
+- [📄 **Create Files**](#create-files)
+- [🗑️ **Delete Files**](#delete-files)
+- [🧠 **Vim**](#vim)
+  - [🔸 The Pipes and Redirections Concept](#the-pipes-and-redirections-concept)
+  - [📤 Redirect to File](#redirect-to-file)
+  - [📥 Redirect from File](#redirect-from-file)
+  - [🧩 Quiz](#quiz)
+- [🐈 **CAT and VIM**](#cat-and-vim)
+  - [📖 Less and More](#less-and-more)
+  - [✂️ Print Part of the File](#print-part-of-the-file)
+  - [🧩 Quiz 2](#quiz-2)
+- [📋 **Copy Files**](#copy-files)
+  - [📦 Move Files](#move-files)
+  - [⚙️ More Possibilities](#more-possibilities)
+- [🔧 **Administrative Commands**](#our-first-administrative-command)
+  - [⚙️ How to Modify the Default View](#how-to-modify-the-default-view)
+  - [🚀 Start with non Default Settings](#start-with-non-default-settings)
+- [🖥️ **Process Management**](#first-look-on-the-ps-command)
+  - [📊 Most Commonly Used Combinations](#most-commonly-used-combinations)
+  - [🧭 How to use Alias](#how-to-use-alias)
+  - [🔒 Make Alias Permanent](#make-alias-permanent)
+  - [👥 Aliases for all Users](#aliases-for-all-users)
+
+---
 
 </details>
+
+
 
 
 
@@ -110,6 +140,8 @@ chmod 444 file-01 # (this will change the permissions of the file)
 ls -ltu
 ls -ltc
 ```
+
+[🔝 Back to Top](#top)
 
 ## Sort Content by Size
 OK, we know how to sort files by time, let's learn how to do it by size.
