@@ -22,29 +22,28 @@ vpc=$(curl -H "X-aws-ec2-metadata-token: $TOKEN" -s http://169.254.169.254/lates
 
 echo "
 <!doctype html>
-<html lang="en" class="h-100">
+<html lang=\"en\" class=\"h-100\">
 <head>
-<title>Details for EC2 instance</title>
+<title>"Be a man challenge 1.2"
+</title>
 </head>
 <body>
 <div>
-<h1>Class 7 HW.1 Be A Man Challenge 1.1</h1>
-<h1>I, Bryant, Thank Theo, Rob and Aaron, For Teaching Me About Ec2s In Aws. One Step Closer To Escaping Keisha!"
-"With This Class, I Will Net 250k Per Year!</h1>
+<h1>"I, Bryant, Thank Theo, Rob and Aaron, For Teaching Me About Ec2s In Aws. One Step Closer To Escaping Keisha!"
+"With This Class, I Will Net 250k Per Year!"</h1>
+<h1>"I found my wife on a party yacht in Tanzania! Her name is Ifey!"</h1>
 
 <br>
-
-<img src=https://images.pexels.com/photos/33968169/pexels-photo-33968169.jpeg width="750" height="900" alt=images.pexels.com>
+<img src="https://images.pexels.com/photos/33968169/pexels-photo-33968169.jpeg">
 <br>
 
-<p><b>Instance Name:</b> ip-192-168-4-145.ec2.internal </p>
-<p><b>Instance Private Ip Address: </b> </p>
-<p><b>Availability Zone: </b> </p>
-<p><b>Virtual Private Cloud (VPC):</b> </p>
+<p><b>Instance Name:</b> $(hostname -f) </p>
+<p><b>Instance Private Ip Address: </b> ${local_ipv4}</p>
+<p><b>Availability Zone: </b> ${az}</p>
+<p><b>Virtual Private Cloud (VPC):</b> ${vpc}</p>
 </div>
 </body>
 </html>
-
 " > /var/www/html/index.html
 
 # Clean up the temp files
