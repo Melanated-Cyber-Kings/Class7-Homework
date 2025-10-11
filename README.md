@@ -39,7 +39,7 @@ Class 7 2025 Homework Submissions Repo for THEO WAF
 
 **14:** <a href="https://github.com/Cameron-Cleveland">Cameron Cleveland</a> 
 
-**15:** <a href="https://github.com/Cameron-Cleveland">Campanella Godfrey Jr</a>
+**15:** <a href="https://github.com/BennyCampCloud">Campanella Godfrey Jr</a>
 
 
 <br>
