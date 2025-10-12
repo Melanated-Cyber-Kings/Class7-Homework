@@ -16,7 +16,7 @@ This network contains 3 public subnets and 2 private subnets.
 
 ***
 
-##  Quiz Results
+##  Udemy Quiz Results
 
 ![Quiz Results](graphics/class7-hw04-quiz-screenshot.jpeg)
 
