@@ -15,4 +15,6 @@ Documentation: Details are in file [Network Architecture](class07-hw04-aws-netwo
 
 ## Cisco Binary High Score
 
+Need to practice more. This score is *UNSAT*.
 
+![High Score](graphics/high-score.png)
