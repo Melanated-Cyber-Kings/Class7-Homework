@@ -1,0 +1,42 @@
+Initial Git Configuration
+
+1. Set Your Name: 
+
+git config --global user.name "jaybailey"
+
+2. Set Your Email:
+
+git config --global user.email 232361239+jareonbailey-web@users.noreply.github.com
+
+
+3. Verify Configuration:
+
+git config --global list
+
+
+
+
+git config --global user.name "Your Full Name
+e.g. git config --global user.nase "catch it on the rewind thes (rob 0.)"
+git config --global user.email your.email@example.com"
+e.g. git config --global user.email "layover.customer@mookiewafairlines.com"
+e.g. git config --global user.email "145098108-rofoed@1@users.noreply.github.com"
+git config --global --list
+
+232361239+jareonbailey-web@users.noreply.github.com
+
+
+…or create a new repository on the command line
+echo "# Class7Repo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/jareonbailey-web/Class7Repo.git
+git push -u origin main
+
+
+
+https://github.com/jareonbailey-web/Class7Repo
+
+https://github.com/jareonbailey-web/Class7Repo.git
