@@ -1,0 +1,21 @@
+#aws 
+
+
+WSL = Windows subsystem for Linux
+
+**Goal for tonight** = Upload a file from laptop to GitHub using Git bash
+
+Gitbash cmds-
+==pwd== = print working directory, aka 'where are you currently'?
+==cd== = change directory
+==clear== = clear screen
+==cd ..== = go up 1 folder
+==mkdir== = make directory
+==touch== (+ filename) = make a text file from cmd
+==rm== (+ filename) = remove file                                   [Do NOT use this command in your root folder]
+
+NTS2: All folders in Git bash have a '/' at the end
+
+
+Path for testing = C:\Users\Study\Documents\TheoWAF\class7\AWS\Classes\wk3_github\92325test
+
