@@ -10,9 +10,9 @@
 ---
 
 ### My hobby:
-<img src="./images/Arcade_stick.jpg.jpg" alt="video games" width="700"/>
+<img src="./images/Arcade_stick.jpg" alt="video games" width="700"/>
 
-> Video Games, building PC's for gaming
+> Video Games, Technologies and Knowledge
 
 ---
 
