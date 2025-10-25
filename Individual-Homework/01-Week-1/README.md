@@ -139,3 +139,6 @@ This is just good housekeeping. It costs nothing but keeps your account clean.
 5.  Confirm on the popup.
 
 You're done. No surprise bill.
+
+**Back to Submissions Log:**
+[Submissions Log](../README.md)

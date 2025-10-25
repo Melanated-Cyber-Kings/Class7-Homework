@@ -76,3 +76,6 @@ The deep blue calls. And sometimes, its oldest residents answer. A humbling, exh
 [<img src="./images/shark_diving.jpg" alt="Diving with sharks" width="600"/>](./images/shark_diving.jpg)
 
 ---
+
+**Back to Submissions Log:**
+[Submissions Log](../README.md)

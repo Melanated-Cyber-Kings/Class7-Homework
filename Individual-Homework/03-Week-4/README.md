@@ -29,3 +29,7 @@ This structure provides a total of 3 Public Subnets and 6 Private Subnets, ensur
 ##
 **Cisco Binary Game Hi-Score:**
 [<img src="./images/binary_game.png" alt="Binary Game Score" width="600"/>](./images/binary_game.png)
+
+
+**Back to Submissions Log:**
+[Submissions Log](../README.md)
