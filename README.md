@@ -4,15 +4,15 @@
 
 <!-- Badges as mission parameters - sleek and integrated -->
 <p align="center">
-  <img src="https://img.shields.io/badge/OPS_STATUS-ONLINE-00FF00?style=for-the-badge&logo=firebase&logoColor=white" alt="Operations Status Online-ish">
+  <img src="https://img.shields.io/badge/OPS_STATUS-ONLINE-brightgreen?style=for-the-badge&logo=firebase&logoColor=white" alt="Operations Status Online">
   <img src="https://img.shields.io/badge/OPERATIVES-11_CYBER_KINGS-FF00FF?style=for-the-badge&logo=github&logoColor=white" alt="Operatives 11 Cyber Kings">
   <img src="https://img.shields.io/badge/DATA_DROPS-WEEKLY_GRIND-00FFFF?style=for-the-badge&logo=circleci&logoColor=white" alt="Data Drops Weekly Grind">
-  <img src="https://img.shields.io/badge/PRIMARY_FOCUS-AWS-FFFF00?style=for-the-badge&logo=aws&logoColor=black" alt="Primary Focus AWS">
+  <img src="https://img.shields.io/badge/PRIMARY_FOCUS-AWS_SECURITY-FFFF00?style=for-the-badge&logo=aws&logoColor=black" alt="Primary Focus AWS Security">
 </p>
 
 ---
 
-Listen up, choombas. This is the **AWS Class 7 Operations Log** for **THEO WAF**. Don't screw it up. This is where we dump our weekly brain-fry, collaborate (reluctantly), and pretend we know what we're doing. Survival means keeping the data flowing, so let's try not to flatline the repo.
+Listen up, choombas. This is the **AWS Class Operations Log** for **THEO WAF**. Don't screw it up. This is where we dump our weekly brain-fry, collaborate (reluctantly), and pretend we know what we're doing. Survival means keeping the data flowing, so let's try not to flatline the repo.
 
 ---
 
@@ -20,7 +20,7 @@ Listen up, choombas. This is the **AWS Class 7 Operations Log** for **THEO WAF**
 
 You want the goods? Here's the map. Don't get lost, the street's unforgiving.
 
--   [👥 The Collective: Our Network (God Help Us)](#-the-collective-our-network)
+-   [👥 The Collective: Our Network](#-the-collective-our-network)
 -   [📖 Operation Directives: The Workflow (Don't Deviate)](#-operation-directives-the-workflow-dont-deviate)
     -   [🟢 Directive 01: Initializing Local Port (The Basics)](#-directive-01-initializing-local-port-the-basics)
     -   [🔵 Directive 02: Syncing Remote Data-Stream (Avoid Headaches)](#-directive-02-syncing-remote-data-stream-avoid-headaches)
@@ -31,7 +31,7 @@ You want the goods? Here's the map. Don't get lost, the street's unforgiving.
 
 ---
 
-## 👥 The Collective: Our Network 
+## 👥 The Collective: Our Network
 
 Under the watchful eye of our esteemed Lead Netrunner, Brimah Khalil Kamara, this mess somehow stays functional. Don't disappoint him.
 
@@ -64,6 +64,7 @@ Think of these as the unwritten rules of the street. Follow them, or end up flat
 
 <details open>
 <summary>🟢 Directive 01: Initializing Local Port (The Basics)</summary>
+
 First rule of Night City: know your turf. Get the main grid to your local rig.
 ```bash
 git clone https://github.com/Melanated-Cyber-Kings/Class7-Homework.git
@@ -72,6 +73,7 @@ git clone https://github.com/Melanated-Cyber-Kings/Class7-Homework.git
 
 <details>
 <summary>🔵 Directive 02: Syncing Remote Data-Stream (Avoid Headaches)</summary>
+
 Before you drop your own trash, grab the latest from the collective. Seriously, save yourself the merge conflicts.
 ```bash
 # First, jack into your designated sub-net
@@ -84,6 +86,7 @@ git pull origin your-branch-name
 
 <details>
 <summary>🟡 Directive 03: Data-Vault Structuring (Pretend You're Organized)</summary>
+
 Even street samurai need to know where their gear is. Don't make a bigger mess.
 📂 Set up weekly drop zones: `Week_01_Drop`, `Week_02_Drop`, etc.
 📌 All your weekly garbage goes into its designated folder. Don't mix 'em.
@@ -91,6 +94,7 @@ Even street samurai need to know where their gear is. Don't make a bigger mess.
 
 <details>
 <summary>🟣 Directive 04: Forging Your Personal Sub-Net (Your Own Corner of Chaos)</summary>
+
 Keep your mess contained. Your own private little digital sandbox.
 ```bash
 git checkout -b Your-Name-Homework-Branch
@@ -100,6 +104,7 @@ git checkout -b Your-Name-Homework-Branch
 
 <details>
 <summary>📝 Directive 05: Log Your Traces (Prove You Did Something)</summary>
+
 Nobody believes you unless it's written down. Make it look legit.
 📝 A `README.md` is required in each weekly data-vault.
 Make your documentation so clear a drunk corpo could follow it. No excuses.
@@ -107,6 +112,7 @@ Make your documentation so clear a drunk corpo could follow it. No excuses.
 
 <details>
 <summary>📤 Directive 06: Final Data-Drop & Upload (The Moment of Truth)</summary>
+
 The moment of truth. Don't choke.
 1.  All completed data goes into its proper weekly vault.
 2.  Prep the payload: `git add .`
