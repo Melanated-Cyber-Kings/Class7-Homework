@@ -20,7 +20,7 @@ Listen up, choombas. This is the **AWS Class 7 Operations Log** for **THEO WAF**
 
 You want the goods? Here's the map. Don't get lost, the street's unforgiving.
 
--   [👥 The Collective: Our Network (God Help Us)](#-the-collective-our-network-god-help-us)
+-   [👥 The Collective: Our Network (God Help Us)](#-the-collective-our-network)
 -   [📖 Operation Directives: The Workflow (Don't Deviate)](#-operation-directives-the-workflow-dont-deviate)
     -   [🟢 Directive 01: Initializing Local Port (The Basics)](#-directive-01-initializing-local-port-the-basics)
     -   [🔵 Directive 02: Syncing Remote Data-Stream (Avoid Headaches)](#-directive-02-syncing-remote-data-stream-avoid-headaches)
