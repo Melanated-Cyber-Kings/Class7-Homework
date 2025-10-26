@@ -1,4 +1,5 @@
 ---
+<a name="top"></a>
 
 # 🌃 NETRUNNER PROTOCOL: AWS Class 7 – Operations Log ⚡
 
@@ -119,3 +120,8 @@ The moment of truth. Don't choke.
 ---
 
 ✨ **Stay frosty, try not to flatline, and maybe, just maybe, we'll all make it through this week. Good luck, choom.** ✨
+
+**Go to Submissions Log:**
+[Submissions Log](./Individual-Homework/)
+
+<p align="right"><a href="#top">[▲ Back to Top]</a></p>

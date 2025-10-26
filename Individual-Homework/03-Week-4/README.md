@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🌍 Network Architecture: Stockholm (EU-NORTH-1)
 
 This table details the network architecture deployed within the Stockholm (EU-NORTH-1) AWS region.
@@ -33,3 +35,5 @@ This structure provides a total of 3 Public Subnets and 6 Private Subnets, ensur
 
 **Back to Submissions Log:**
 [Submissions Log](../README.md)
+
+<p align="right"><a href="#top">[▲ Back to Top]</a></p>

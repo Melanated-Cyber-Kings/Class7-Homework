@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # Week 1 Homework Deliverables
 
 EC2 Basics
@@ -142,3 +144,5 @@ You're done. No surprise bill.
 
 **Back to Submissions Log:**
 [Submissions Log](../README.md)
+
+<p align="right"><a href="#top">[▲ Back to Top]</a></p>
