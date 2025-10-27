@@ -16,10 +16,10 @@ Below is a detailed log of all submitted homework, organized by week. Click the 
 
 | Week  | Deliverable                 | Status/Notes     | Link                                              |
 | :---- | :-------------------------- | :--------------- | :------------------------------------------------ |
-| **Week 1** | Deliverable 1               | Completed        | [View Deliverable](./01-Week-1/README.md)    |
-| **Week 3** | Deliverable 1               | Completed        | [View Deliverable](./03-Week-3/README.md)    |
-| **Week 4** | Deliverable 1               | Completed        | [View Deliverable](./04-Week-4/README.md)    |
-| **Week 6** | Deliverable 1               | Pending        | [View Deliverable](./06-Week-6/README.md)    |
+| **Week 1** | Deliverable 1               | Completed        | [View Deliverable](./01-WEEK-1/README.md)    |
+| **Week 3** | Deliverable 1               | Completed        | [View Deliverable](./03-WEEK-3/README.md)    |
+| **Week 4** | Deliverable 1               | Completed        | [View Deliverable](./04-WEEK-4/README.md)    |
+| **Week 6** | Deliverable 1               | Pending        | [View Deliverable](./06-WEEK-6/README.md)    |
 | **Week 7** | Deliverable 1               | Pending        | [View Deliverable](link-to-week7-deliverable1)    |
 | **Week 8** | Deliverable 1               | Not Yet Reached  |                                                   |
 | **Week 9** | Deliverable 1               | Not Yet Reached  |                                                   |
