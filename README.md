@@ -1,7 +1,7 @@
 <a name="top"></a>
 
 **Go to Submissions Log:**
-[Submissions Log](./Individual-Homework/)
+[Submissions Log](./Class7-Individual-Homework/README.md)
 
 # 🌐 AWS Class 7 – Homework Repository
 
@@ -101,7 +101,7 @@ Keep instructions clear and beginner-friendly.
 Someone with no prior context should be able to follow your steps.
 </details>
 
-<details> <summary>📤 Step 6: Submit Homework</summary>
+<details> <summary>📤 Step 6: Submit Homework</summary
 
 📤 Transfer all your completed assignments into the appropriate weekly folder.
 🎯 Make sure everything is neat, readable, and presentation-ready for THEO.
@@ -111,6 +111,6 @@ Someone with no prior context should be able to follow your steps.
 ✨ Stay consistent, collaborate effectively, and keep your submissions polished!
 
 **Go to Submissions Log:**
-[Submissions Log](./Individual-Homework/)
+[Submissions Log](./Class7-Individual-Homework/README.md)
 
 <p align="right"><a href="#top">[▲ Back to Top]</a></p>

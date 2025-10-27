@@ -37,3 +37,7 @@ Tear-down of EC2
 
 Click on ‘Instance’ on the left-hand side of the homepage
 Click on ‘Instance State’ => ‘Terminate (Delete) Instance’ 
+
+**Go to Submissions Log**
+
+[Submissions Log](./Class7-Individual-Homework/README.md)
