@@ -27,7 +27,8 @@ patched-src
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -128,3 +129,21 @@ terragrunt-debug.tfvars.json
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/git,ssh,terraform,dotfilessh,powershell,terragrunt,visualstudiocode,macos
+# Manually added files to ignore.
+
+# lock files
+*.terraform.lock.hcl.*
+.terraform.lock.hcl
+
+# Ignore keys
+*.json 
+!tests/event.json
+!tests/output.json
+*.pem
+
+#ignore packages
+*.rpm
+rpm_packages/
+*.zip
+
+venv/
