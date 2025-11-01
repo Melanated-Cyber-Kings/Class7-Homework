@@ -1,0 +1,45 @@
+
+
+VPC CIDR = 172.17.0.0/16
+
+Public Subnet1 - 172.17.2.0/24 - US-East-1a
+Public Subnet2 - 172.17.4.0/24 - US-East-1b
+Public Subnet3 - 172.17.6.0/24 - US-East-1c
+
+Private Subnet1 - 172.17.12.0/24 - US-East-1a
+Private Subnet2 - 172.17.14.0/24 - US-East-1b
+Private Subnet3 - 172.17.16.0/24 - US-East-1c
+
+
+
+Linux Web Server IP:
+
+US-East-1c = 172.17.16.81  = wk4-hw-linux-web-server-1
+US-East-1b = 172.17.14.115 = wk4-hw-linux-web-server-2
+US-East-1a = 172.17.12.194 = wk4-hw-linux-web-server-3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
