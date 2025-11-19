@@ -12,7 +12,7 @@ This repository serves as a centralized collection for all my Homework Deliverab
 
 ## 📝 Submission Log
 
-Below is a detailed log of all submitted homework, organized by week. Click the links for easy access the deliverables for each week.
+Below is a detailed log of all submitted homework, organized by week. Click the links for easy access to the deliverables for each week.
 
 | Week  | Deliverable                 | Status/Notes     | Link                                              |
 | :---- | :-------------------------- | :--------------- | :------------------------------------------------ |
