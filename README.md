@@ -41,6 +41,9 @@ Class 7 2025 Homework Submissions Repo for THEO WAF
 
 **15:** <a href="https://github.com/BennyCampCloud">Campanella Godfrey Jr</a>
 
+**16:** <a href="https://github.com/keylewisleo">Key Lewis</a>
+
+
 
 <br>
 
@@ -108,6 +111,9 @@ git checkout -b Cameron-Cleveland-Homework-Branch
 ```
 ```bash
 git checkout -b Campanella-Godfrey-Jr-Homework-Branch
+```
+```bash
+git checkout -b Key-Lewis-Homework-Branch
 ```
 
    
