@@ -8,3 +8,4 @@ Variables are used to simplify management of the website deployment.
 
 Consists of 3 public and 3 private subnets in 3 availability zones in 1 AWS region.
 
+Infrastructure code is located in the subfolder named terraform_code.
