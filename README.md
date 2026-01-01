@@ -51,7 +51,7 @@ Class 7 2025 Homework Submissions Repo for THEO WAF
 
 <br>
 
-1. Pull or clone the Class7 Homeworkk Repo on your gitbash terminal to your git on your local machine. You will only be allowed to pull once you have cloned the repo. 
+1. Pull or clone the Class7 Homework Repo on your gitbash terminal to your git on your local machine. You will only be allowed to pull once you have cloned the repo. 
 
 
 ```bash
