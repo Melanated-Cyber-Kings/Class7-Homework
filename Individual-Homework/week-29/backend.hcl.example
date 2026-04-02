@@ -1,0 +1,10 @@
+# backend.hcl.example
+#
+# Copy this file to backend.hcl before running:
+#     terraform init
+#
+# These values must match what you put in terraform.tfvars
+
+bucket = "cloudforge-jenkins-bucket"
+key    = "terraform/state.tfstate"
+region = "eu-central-1"
