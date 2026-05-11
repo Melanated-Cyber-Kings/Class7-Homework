@@ -12,14 +12,14 @@ I manually provisioned an API Gateway and integrated it with two backend Lambdas
 To verify the dynamic nature of the integration, I passed unique name parameters to the endpoints.
 
 #### Node.js Endpoint:
-* **Param: Cameron** ![Node Success 1](Node-api-Lambda-Success-1.png)
-* **Param: Class7** ![Node Success 2](Node-api-Lambda-Success-2.png)
-* **Param: Cameron Implements** ![Node Success 3](Node-api-Lambda-Success-3.png)
+* **Param: Cameron** ![Node Success 1](screenshots/Node-api-Lambda-Success-1.png)
+* **Param: Class7** ![Node Success 2](screenshots/Node-api-Lambda-Success-2.png)
+* **Param: Cameron Implements** ![Node Success 3](screenshots/Node-api-Lambda-Success-3.png)
 
 #### Python Endpoint:
-* **Param: Cameron** ![Python Success 1](Python-api-Lambda-Success-1.png)
-* **Param: Class7** ![Python Success 2](Python-api-Lambda-Success-2.png)
-* **Param: Class7 + Cameron** ![Python Success 3](Python-api-Lambda-Success-3.png)
+* **Param: Cameron** ![Python Success 1](screenshots/Python-api-Lambda-Success-1.png)
+* **Param: Class7** ![Python Success 2](screenshots/Python-api-Lambda-Success-2.png)
+* **Param: Class7 + Cameron** ![Python Success 3](screenshots/Python-api-Lambda-Success-3.png)
 
 ---
 
@@ -27,9 +27,9 @@ To verify the dynamic nature of the integration, I passed unique name parameters
 I codified the infrastructure to automate the deployment of the API Gateway, Lambda functions, and the necessary IAM permissions.
 
 ### 📸 Terraform Evidence
-* **Provisioned Functions:** ![Lambda Console](Lambda-Terraform-Functions-Console.png)
-* **Node Deployment:** ![TF Node API](Terraform-Node-api-Lambda-Success.png)
-* **Python Deployment:** ![TF Python API](Terraform-Python-api-Lambda-Success-1.png)
+* **Provisioned Functions:** ![Lambda Console](screenshots/Lambda-Terraform-Functions-Console.png)
+* **Node Deployment:** ![TF Node API](screenshots/Terraform-Node-api-Lambda-Success.png)
+* **Python Deployment:** ![TF Python API](screenshots/Terraform-Python-api-Lambda-Success-1.png)
 
 ---
 
