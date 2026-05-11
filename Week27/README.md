@@ -30,8 +30,8 @@ The following screenshots confirm the successful automation of the Jenkins envir
 These images show the terminal output and Jenkins UI confirming that the plugin installation script executed successfully without manual intervention.
 
 * **Script Success Log:** ![Plugin Script Success](screenshots/jenkins-plugin-install-script-success.png)
-* **Plugin Verification 1:** ![Plugin Success 1](screenshots/jenkins-plugin-install-script-success1.jpg)
-* **Plugin Verification 2:** ![Plugin Success 2](screenshots/jenkins-plugin-install-script-success2.jpg)
+* **Plugin Verification 1:** ![Plugin Success 1](screenshots/jenkins-plugin-install-script-success1.png)
+* **Plugin Verification 2:** ![Plugin Success 2](screenshots/jenkins-plugin-install-script-success2.png)
 
 ---
 
